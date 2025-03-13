@@ -1,9 +1,7 @@
 import axios from 'axios';
 
-import { requestInterceptor, responseInterceptor } from './interceptor';
-
+import { requestInterceptor } from './interceptor';
 import { createMergedApi } from './generated';
-import { BASE_URL } from './constants';
 
 const headers = {
   'Cache-Control': 'no-cache',
